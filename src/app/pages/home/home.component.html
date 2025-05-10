@@ -1,0 +1,99 @@
+<div class="w-full px-4">
+  <div class="flex flex-col md:flex-row md2:flex-row gap-2">
+      <div class="md2:w-2/5 w-full">
+        <app-card>
+          <app-card-body>
+            <div class="w-full flex justify-end">
+              <app-icon name="settings"></app-icon>
+            </div>
+            <picture class="mb-2 block">
+              <img src="/assets/images/img1.jpg">
+            </picture>
+            <section class="flex items-center bg-gray1 p-3" *ngFor="let item of notificationData">
+              <app-icon name="notes" size="50px"></app-icon>
+              <div class="flex-1">
+                <!-- <strong>April 15 QA Sector</strong> -->
+                <strong>{{item.subject}}</strong>
+                <div [innerHTML]="item.body"></div>
+              </div>
+            </section>
+          </app-card-body>
+        </app-card>
+      </div>
+      <div class="md2:w-3/5 w-full flex flex-col gap-2">
+        <app-card>
+          <app-card-header>
+            <h1 class="font-semibold text-blue-title">RECIPE SEARCH</h1>
+          </app-card-header>
+          <app-card-body>
+            <section class="flex items-center gap-2">
+              <app-search-input></app-search-input>
+              <mat-form-field appearance="outline" class="bottom-space-0 w-64">
+                <mat-label>Select an option</mat-label>
+                <mat-select [formControl]="sortField">
+                  <mat-option *ngFor="let menu of sortMenus" [value]="menu.value">{{menu.name}}</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </section>
+            <section class="pt-2">
+              <mat-radio-group aria-label="Select an option" [formControl]="KeyField">
+                <mat-radio-button [value]="item.value" *ngFor="let item of searchKeys">{{item.name}}</mat-radio-button>
+              </mat-radio-group>
+            </section>
+          </app-card-body>
+        </app-card>
+        <section class="w-full flex gap-2 flex-col flex-wrap sm:flex-row md:flex-row">
+          <app-card class="card-block1">
+            <app-card-header>
+              <h1 class="font-semibold text-blue-title">LAST REPORTS RUN</h1>
+            </app-card-header>
+            <app-card-body class="min-h-20">
+              
+            </app-card-body>
+          </app-card>
+
+          <app-card class="card-block1">
+            <app-card-header>
+              <h1 class="font-semibold text-blue-title">ALERTS &amp;  MAINTANANCE</h1>
+            </app-card-header>
+            <app-card-body class="min-h-20">
+              
+            </app-card-body>
+          </app-card>
+
+          <app-card class="card-block1">
+            <app-card-header>
+              <h1 class="font-semibold text-blue-title">RECENTLY ADDED RECIPES</h1>
+            </app-card-header>
+            <app-card-body class="min-h-20">
+              <div class="flex items-center gap-2 py-1" *ngFor="let recipe of recentRecipesData">
+                <app-icon name="chef"></app-icon>
+                <span class="text-blue-title hover:underline cursor-pointer">{{recipe.Name}}</span>
+              </div>
+            </app-card-body>
+          </app-card>
+
+          <app-card class="card-block1">
+            <app-card-header>
+              <h1 class="font-semibold text-blue-title">MESSGES</h1>
+            </app-card-header>
+            <app-card-body class="min-h-20">
+              
+            </app-card-body>
+          </app-card>
+
+          <app-card class="card-block1">
+            <app-card-header>
+              <h1 class="font-semibold text-blue-title">LEGACY</h1>
+            </app-card-header>
+            <app-card-body class="min-h-20">
+              <div class="flex items-center gap-2 py-1">
+                <app-icon name="home" className="text-blue-title"></app-icon>
+                <span class="text-blue-title hover:underline cursor-pointer">Legacy Home Page</span>
+              </div>
+            </app-card-body>
+          </app-card>
+        </section>
+      </div>
+    </div>
+</div>

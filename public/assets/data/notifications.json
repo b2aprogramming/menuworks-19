@@ -1,0 +1,24 @@
+[
+    {
+        "category": "TEAM",
+        "actionable": false,
+        "id": 1059262,
+        "application_name": "Webtrition",
+        "subject": "april 15 QA Sector",
+        "body": "<p>Smoke testing QA</p>",
+        "source_reference": "",
+        "action_url": "",
+        "priority": "1",
+        "type": "Sector Information",
+        "start_time": "2024-10-21T10:20:00.000Z",
+        "end_time": "2025-04-29T04:00:00.000Z",
+        "created_by": "galips01",
+        "created_date": "2024-10-21T10:19:52.000Z",
+        "updated_by": null,
+        "updated_date": null,
+        "attributes": null,
+        "is_read": false,
+        "team_name": "COMPASS",
+        "source_system_id": "1001"
+    }
+]

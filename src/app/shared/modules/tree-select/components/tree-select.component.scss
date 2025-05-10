@@ -1,0 +1,57 @@
+.tree-select-container {
+  position: relative;
+  width: 100%;
+
+  &.disabled {
+    opacity: 0.7;
+    pointer-events: none;
+  }
+}
+
+.tree-select-field {
+  width: 100%;
+}
+
+.tree-select-tree {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 4px;
+}
+
+.tree-node {
+  cursor: pointer;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  font-size: 14px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.mat-tree-node {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+mat-checkbox {
+  margin-right: 8px;
+}
+
+.mat-icon {
+  color: rgba(0, 0, 0, 0.54);
+} 

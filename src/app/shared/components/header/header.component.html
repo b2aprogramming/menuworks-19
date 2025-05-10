@@ -1,0 +1,61 @@
+<header class="bg-white border-gray-200 dark:bg-gray-900">
+    <nav>
+        <div class="flex flex-wrap items-center justify-between w-full py-2 px-4 flex-col md:flex-row sm:flex-row">
+            <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="/assets/images/appLogo.png" alt="Webtrition" width="120" />
+            </a>
+            
+            <div id="mega-menu" class="items-center justify-between w-full flex flex-col md2:flex-row sm2:flex-row md:w-auto md:order-1 gap-3">
+                <div class="flex items-center md:flex-row">
+                    <div class="flex items-center gap-2">
+                        <mat-icon svgIcon="layers" class="cursor-pointer"></mat-icon>
+                        <mat-icon svgIcon="speaker" class="cursor-pointer"></mat-icon>
+                        <mat-icon svgIcon="bell" class="cursor-pointer"></mat-icon>
+                    </div>
+                    <div class="flex items-center gap-4 w-full sm:w-auto">
+                        <!-- <img class="w-10 h-10 rounded-full" src="/docs/images/people/profile-picture-5.jpg" alt=""> -->
+                        <div class="font-medium dark:text-white">
+                            <div>Yaswanth</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-2 flex-col md:flex-row sm:flex-row sm: w-full">
+                    <div class="w-full">
+                        <mat-form-field appearance="outline" class="bottom-space-0 w-full">
+                            <!-- <mat-label *ngIf="!selectedRoles.value">--Select--</mat-label> -->
+                            <mat-select [formControl]="selectedRoles">
+                                <mat-option *ngFor="let role of userRoles" [value]="role">
+                                {{role.name}}
+                                </mat-option>
+                            </mat-select>
+                        
+                        </mat-form-field>
+                    </div>
+                    <div class="w-full">
+                        <app-mat-tree-select class="w-full"></app-mat-tree-select>
+                    <!-- <mat-form-field appearance="outline" class="bottom-space-0">
+                        <mat-select [formControl]="applicationScope">
+                            <mat-option *ngFor="let region of countries" [value]="region">
+                            {{region.name}}
+                            </mat-option>
+                        </mat-select>
+                        
+                        </mat-form-field> -->
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+      </nav>
+      <nav class="bg-nav-bg sticky top-0">
+        <div class="flex flex-wrap items-center justify-between w-full px-4">
+            <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0">
+                <li *ngFor="let menu of menus">
+                    <a [routerLink]="menu.link" [routerLinkActiveOptions]="{exact: menu.exact}" routerLinkActive="md:bg-nav-bg-hover md:dark:bg-nav-bg-hover dark:bg-nav-bg-hover"  class="text-center block py-2 px-4  hover:bg-nav-bg-hover text-white" aria-current="page">{{menu.name}}</a>
+                </li>
+            </ul>
+        </div>
+       
+      </nav>
+      <app-sub-header></app-sub-header>
+</header>

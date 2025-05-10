@@ -1,0 +1,1117 @@
+[
+    {
+        "TypeId": 2,
+        "Id": 544,
+        "Name": "Bon Appetit - (Global)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2129,
+        "Name": "Bon Appetit - Google Nutrition (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1460,
+        "Name": "Bon Appetit - Region - Google"
+    },
+    {
+        "TypeId": 2,
+        "Id": 914,
+        "Name": "Canada - BE (Global) - published to sectors"
+    },
+    {
+        "TypeId": 1,
+        "Id": 2238,
+        "Name": "Canada Archived Ingredients"
+    },
+    {
+        "TypeId": 2,
+        "Id": 979,
+        "Name": "Canteen - (Global)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2325,
+        "Name": "Canteen - Amazon Hot Food Project "
+    },
+    {
+        "TypeId": 2,
+        "Id": 695,
+        "Name": "Canteen - Commissary"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1390,
+        "Name": "Canteen - Core 4 "
+    },
+    {
+        "TypeId": 2,
+        "Id": 989,
+        "Name": "Canteen - Region - Mid-Atlantic"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1019,
+        "Name": "Canteen - Region - Southeast"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1870,
+        "Name": "CCL-HG ML - (Global)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2336,
+        "Name": "CCL-HG ML Limited 10388 Royal Oaks"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1430,
+        "Name": "CHE - (Catering - Core4 recipes)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 549,
+        "Name": "CHE - (Global) "
+    },
+    {
+        "TypeId": 2,
+        "Id": 556,
+        "Name": "CHE - (Global) Shared Recipes"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2342,
+        "Name": "CHE - Gourmet Dining "
+    },
+    {
+        "TypeId": 2,
+        "Id": 2324,
+        "Name": "CHE - Halal"
+    },
+    {
+        "TypeId": 2,
+        "Id": 605,
+        "Name": "CHE - Mondo Subs (Limited Access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1922,
+        "Name": "CHE 10931 - Idaho State University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1769,
+        "Name": "CHE 11693 - SUNY Purchase College"
+    },
+    {
+        "TypeId": 2,
+        "Id": 789,
+        "Name": "CHE 11726 - The New School"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1770,
+        "Name": "CHE 11734 - Oakland University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1752,
+        "Name": "CHE 11813 - North Florida"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1923,
+        "Name": "CHE 1261 - Sacredheart University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 674,
+        "Name": "CHE 13562 - Johnson & Wales University Charlotte"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2291,
+        "Name": "CHE 13633 - Marywood University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1753,
+        "Name": "CHE 17264 - Shippensburg University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1754,
+        "Name": "CHE 17500 - SUNY College at Old Westbury"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1756,
+        "Name": "CHE 1757 - Canisius College"
+    },
+    {
+        "TypeId": 2,
+        "Id": 597,
+        "Name": "CHE 18343 - Auburn University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1924,
+        "Name": "CHE 19199 - St. John's University Marillac Hall"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1757,
+        "Name": "CHE 19622 - SUNY Plattsburg"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1751,
+        "Name": "CHE 19933 - Xavier University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1921,
+        "Name": "CHE 19980 - University of Texas Dallas"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1856,
+        "Name": "CHE 21017 - University of Mary"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1925,
+        "Name": "CHE 21506 - Bowling Green State University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1758,
+        "Name": "CHE 22773 - Cumberland University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2158,
+        "Name": "CHE 23634 - Missouri State University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1759,
+        "Name": "CHE 27624 - Anderson University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1760,
+        "Name": "CHE 30563 - University of Wisconsin-La Crosse"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2289,
+        "Name": "CHE 30917 - Colgate College"
+    },
+    {
+        "TypeId": 2,
+        "Id": 640,
+        "Name": "CHE 3220 - North Central College"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1762,
+        "Name": "CHE 32280 - Eastern Michigan University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1763,
+        "Name": "CHE 32519 - King's College"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1764,
+        "Name": "CHE 32657 - University of Wisconsin GB"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1765,
+        "Name": "CHE 3669 - Towson University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2007,
+        "Name": "CHE 44790 - Northwestern University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2146,
+        "Name": "CHE 44953 - Carnegie Mellon University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2149,
+        "Name": "CHE 50474 - New York University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2182,
+        "Name": "CHE 53746 - University of Pittsburgh"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2201,
+        "Name": "CHE 54162 - Toledo Admin"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2344,
+        "Name": "CHE 56830 - GWU Admin"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2340,
+        "Name": "CHE 60075 - University of Florida"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1766,
+        "Name": "CHE 6174 - Florida Atlantic University"
+    },
+    {
+        "TypeId": 2,
+        "Id": 545,
+        "Name": "CHE 6335 - University of Miami"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1768,
+        "Name": "CHE 7966 - University of Arkansas-Fayetteville"
+    },
+    {
+        "TypeId": 2,
+        "Id": 590,
+        "Name": "CHE 9829 - University of Nevada at Reno"
+    },
+    {
+        "TypeId": 2,
+        "Id": 661,
+        "Name": "CHE Region - NY Metro"
+    },
+    {
+        "TypeId": 2,
+        "Id": 629,
+        "Name": "CK12 - (Global) Chartwells K-12"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2311,
+        "Name": "CK12 - AR National Park College - 47784"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2136,
+        "Name": "CK12 - AZ Flagstaff Unified School District - 51051"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1415,
+        "Name": "CK12 - Carolinas (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1618,
+        "Name": "CK12 - Connecticut - WG waiver"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1634,
+        "Name": "CK12 - FL Duval County Public Schools - 21572"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1702,
+        "Name": "CK12 - LA (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1440,
+        "Name": "CK12 - MI Cranbrook - 8110"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1735,
+        "Name": "CK12 - MN Edina Public Schools – 29150"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1183,
+        "Name": "CK12 - Noble Street (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1416,
+        "Name": "CK12 - Non NSLP (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1999,
+        "Name": "CK12 - NY Scarsdale Union School District - 23206"
+    },
+    {
+        "TypeId": 2,
+        "Id": 759,
+        "Name": "CK12 - Region - Great Lakes"
+    },
+    {
+        "TypeId": 2,
+        "Id": 760,
+        "Name": "CK12 - Region - MidAtlantic"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2286,
+        "Name": "CK12 - Region - Midwest"
+    },
+    {
+        "TypeId": 2,
+        "Id": 761,
+        "Name": "CK12 - Region - New England"
+    },
+    {
+        "TypeId": 2,
+        "Id": 763,
+        "Name": "CK12 - Region - Pacific"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2287,
+        "Name": "CK12 - Region - South Central"
+    },
+    {
+        "TypeId": 2,
+        "Id": 762,
+        "Name": "CK12 - Region - Southeast"
+    },
+    {
+        "TypeId": 2,
+        "Id": 757,
+        "Name": "CK12 - Region - Texas"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2288,
+        "Name": "CK12 - TX Amarillo - 12793"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1600,
+        "Name": "CK12 - TX Comal ISD - 22786"
+    },
+    {
+        "TypeId": 2,
+        "Id": 969,
+        "Name": "CK12 - USDA Test Site"
+    },
+    {
+        "TypeId": 1,
+        "Id": 1260,
+        "Name": "CK12 Ingredient Set"
+    },
+    {
+        "TypeId": 2,
+        "Id": 322,
+        "Name": "Compass - (Global)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2012,
+        "Name": "Compass - Catering"
+    },
+    {
+        "TypeId": 2,
+        "Id": 783,
+        "Name": "Compass - Core4 (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1202,
+        "Name": "Compass - Ingredient Recipes (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2010,
+        "Name": "Compass - QA Test"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2237,
+        "Name": "Compass - Shared AG Recipes (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1584,
+        "Name": "Culinart - (Global) "
+    },
+    {
+        "TypeId": 2,
+        "Id": 2138,
+        "Name": "CulinArt 39162 - Celgene"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2139,
+        "Name": "CulinArt 39176 - TRP"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2140,
+        "Name": "CulinArt 39200 - Pfizer"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2144,
+        "Name": "CulinArt 39268 - George School"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2141,
+        "Name": "CulinArt 39288 - PPU"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2142,
+        "Name": "CulinArt 42141 - SBU"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2143,
+        "Name": "CulinArt 50701 - Carlow University"
+    },
+    {
+        "TypeId": 1,
+        "Id": 2204,
+        "Name": "CulinArt Pfizer Ingredient Set"
+    },
+    {
+        "TypeId": 2,
+        "Id": 613,
+        "Name": "Envision - (Development)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 575,
+        "Name": "Envision - (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 557,
+        "Name": "Envision - 2Mato (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 513,
+        "Name": "Envision - Asian (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 498,
+        "Name": "Envision - Balance (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1062,
+        "Name": "Envision - Balance Kitchen (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1723,
+        "Name": "Envision - BUILD (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 634,
+        "Name": "Envision - BYOB (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2051,
+        "Name": "Envision - Celebrity Chefs (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1187,
+        "Name": "Envision - Chef Bal (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2050,
+        "Name": "Envision - Chef Fabio (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 915,
+        "Name": "Envision - Chef Jet (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2317,
+        "Name": "Envision - Cool Beans"
+    },
+    {
+        "TypeId": 2,
+        "Id": 633,
+        "Name": "Envision - Create (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2258,
+        "Name": "Envision - Eat Live Do Well (published to sectors) "
+    },
+    {
+        "TypeId": 2,
+        "Id": 1912,
+        "Name": "Envision - Eating Well 2018 (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2025,
+        "Name": "Envision - FED (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2181,
+        "Name": "Envision - Market"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2232,
+        "Name": "Envision - Matriark (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 562,
+        "Name": "Envision - Meeting Well (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1704,
+        "Name": "Envision - National Nutrition Month"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1861,
+        "Name": "Envision - National Nutrition Month 2018"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2169,
+        "Name": "Envision - National Nutrition Month 2020"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2243,
+        "Name": "Envision - National Seafood Month"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1254,
+        "Name": "Envision - On the Go (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2185,
+        "Name": "Envision - On the Go McCormick"
+    },
+    {
+        "TypeId": 2,
+        "Id": 514,
+        "Name": "Envision - Outtakes (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 676,
+        "Name": "Envision - Pollo (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2256,
+        "Name": "Envision - Promotions 2022 (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 764,
+        "Name": "Envision - Puur (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2173,
+        "Name": "Envision - Regen Ag (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2187,
+        "Name": "Envision - Rooted (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2186,
+        "Name": "Envision - Row 7"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1534,
+        "Name": "Envision - Sector Promotions"
+    },
+    {
+        "TypeId": 2,
+        "Id": 735,
+        "Name": "Envision - Sono (publish to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2110,
+        "Name": "Envision - Stop Food Waste (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1892,
+        "Name": "Envision - Superfoods (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1858,
+        "Name": "Envision - Teaching Kitchen (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1541,
+        "Name": "Envision - VegRev (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 699,
+        "Name": "Envision - Whole+Sum (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1087,
+        "Name": "Envision - Za'tar (published to sectors)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 943,
+        "Name": "ESS - Global"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1377,
+        "Name": "ESS - TEST Recipe DATA"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1660,
+        "Name": "Eurest - Bibimbap"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2082,
+        "Name": "Eurest - Daycare Centers"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2148,
+        "Name": "Eurest - Delta"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2248,
+        "Name": "Eurest - Eat Club"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1871,
+        "Name": "Eurest - Kitchen Comfort"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1659,
+        "Name": "Eurest - Masala"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2313,
+        "Name": "Eurest - Movie Theater"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2122,
+        "Name": "Eurest - Pilot"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2312,
+        "Name": "Eurest - Plant Forward"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2330,
+        "Name": "Eurest - Promotions"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2343,
+        "Name": "Eurest - Region - American Airlines"
+    },
+    {
+        "TypeId": 2,
+        "Id": 723,
+        "Name": "Eurest - Region - Boeing"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1490,
+        "Name": "Eurest - Region - Intel"
+    },
+    {
+        "TypeId": 2,
+        "Id": 726,
+        "Name": "Eurest - Region - Microsoft"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2102,
+        "Name": "Eurest - Region - UHG"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2088,
+        "Name": "Eurest - Spanish "
+    },
+    {
+        "TypeId": 2,
+        "Id": 2338,
+        "Name": "Eurest - Sushi/Poke"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2170,
+        "Name": "Eurest - Whole+Sum"
+    },
+    {
+        "TypeId": 2,
+        "Id": 558,
+        "Name": "Flik - (Global)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1931,
+        "Name": "FLIK - Athletics"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2322,
+        "Name": "FLIK - Handcut Foods Region"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2285,
+        "Name": "FLIK - Pepsi"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1270,
+        "Name": "FLIK 27306 - Coca Cola"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2300,
+        "Name": "FLIK 27847 - Chicago Bears"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2196,
+        "Name": "FLIK 41291 - Julie’s Pantry Commissary"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1869,
+        "Name": "FLIK Future Living (Global)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 662,
+        "Name": "Flik ISD - (Global) Flik Independent School Dining"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1868,
+        "Name": "FLIK ISD - Revved Up"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2346,
+        "Name": "Foodbuy - HCA Capital "
+    },
+    {
+        "TypeId": 2,
+        "Id": 1294,
+        "Name": "Foodbuy - Healthcare"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2255,
+        "Name": "Foodbuy - HealthTrust HCA"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2180,
+        "Name": "Foodbuy - IHG"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2208,
+        "Name": "Foodbuy - Member Development"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2137,
+        "Name": "Foodbuy - Members - Tenet"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2323,
+        "Name": "Foodbuy - Navigator"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2192,
+        "Name": "Foodbuy - Recipe Test (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1295,
+        "Name": "Foodbuy - Retail"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2247,
+        "Name": "Foodbuy - Vail Resorts"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2329,
+        "Name": "HUMC 62282 - Software Licensing"
+    },
+    {
+        "TypeId": 2,
+        "Id": 659,
+        "Name": "Levy - (Development)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 660,
+        "Name": "Levy - (Global)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2117,
+        "Name": "Levy - (Shared)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2348,
+        "Name": "Levy - PSC"
+    },
+    {
+        "TypeId": 1,
+        "Id": 1,
+        "Name": "Master Ingredient Set"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2299,
+        "Name": "MHC Global - MW (HC Edit) Publish To"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2304,
+        "Name": "MHC Global - MW (HC Edit) Remove"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2341,
+        "Name": "MHC Global - MW (Inherited Ingredient Recipes-No Edit)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2297,
+        "Name": "MHC Global - MW (Inherited-No Edit)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2298,
+        "Name": "MHC Global - MW (Inherited-No Edit) Remove"
+    },
+    {
+        "TypeId": 2,
+        "Id": 67,
+        "Name": "MHC Limited 10563 Norton Hospital"
+    },
+    {
+        "TypeId": 2,
+        "Id": 345,
+        "Name": "MHC Limited 18584 Lancaster"
+    },
+    {
+        "TypeId": 2,
+        "Id": 407,
+        "Name": "MHC Limited 18841 LA General Med Ctr "
+    },
+    {
+        "TypeId": 2,
+        "Id": 1782,
+        "Name": "MHC Limited 42238 Cleveland Clinic"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1850,
+        "Name": "MHC Limited BJC System"
+    },
+    {
+        "TypeId": 2,
+        "Id": 103,
+        "Name": "MHC Limited BJC-ACC-Bank and Finished"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2308,
+        "Name": "MHC Limited Kosher"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2047,
+        "Name": "MHC Limited Mayo Clinic System"
+    },
+    {
+        "TypeId": 2,
+        "Id": 344,
+        "Name": "MMS - (Morrison Global) Do Not Publish to Set"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2111,
+        "Name": "MMS - (Morrison Limited Access) Do Not Publish to Set"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1579,
+        "Name": "MMS - Daily Press (Limited)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 9,
+        "Name": "MMS - Kosher (Limited)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 547,
+        "Name": "RA - (Global) Restaurant Associates"
+    },
+    {
+        "TypeId": 1,
+        "Id": 359,
+        "Name": "Test 1 Ingredient Set"
+    },
+    {
+        "TypeId": 2,
+        "Id": 658,
+        "Name": "TH - (Development)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 657,
+        "Name": "TH - (Global) Thompson Hospitality"
+    },
+    {
+        "TypeId": 2,
+        "Id": 579,
+        "Name": "TH - Austin Grill (limited access)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2215,
+        "Name": "TH - Draft Recipes Holding"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1421,
+        "Name": "TH - Retail"
+    },
+    {
+        "TypeId": 2,
+        "Id": 904,
+        "Name": "TH - Thompson Joint Ventures"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1734,
+        "Name": "TH - Universities "
+    },
+    {
+        "TypeId": 2,
+        "Id": 822,
+        "Name": "TSS - (Global) Touchpoint Support Services"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2206,
+        "Name": "USE - (Global) Union Square Events"
+    },
+    {
+        "TypeId": 2,
+        "Id": 777,
+        "Name": "Wolfgang Puck - (Development)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 778,
+        "Name": "Wolfgang Puck (Global Set)"
+    },
+    {
+        "TypeId": 2,
+        "Id": 589,
+        "Name": "z - Archive Closed Account Records"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2316,
+        "Name": "zzz - Archive Sector Recipes Jan-June 2023"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2345,
+        "Name": "zzz - Archive Sector Recipes Jan-March 2024"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2337,
+        "Name": "zzz - Archive Sector Recipes July-Dec 2023"
+    },
+    {
+        "TypeId": 2,
+        "Id": 2349,
+        "Name": "zzz - CK12 Archive Recipe Winter 2024 "
+    },
+    {
+        "TypeId": 2,
+        "Id": 2326,
+        "Name": "zzz - CK12 Archive Recipes Summer 2023"
+    },
+    {
+        "TypeId": 2,
+        "Id": 1458,
+        "Name": "zzz - recipes not in sets for review"
+    },
+    {
+        "TypeId": 2,
+        "Id": 325,
+        "Name": "zzzdelete Eurest - (Global) Eurest Dining Services"
+    }
+]

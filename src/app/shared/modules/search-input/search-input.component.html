@@ -1,0 +1,8 @@
+<mat-form-field class="bottom-space-0 relative w-full" appearance="outline">
+    <mat-label>{{label}}</mat-label>
+    <input matInput class="search-input" (keyup.enter)="onInput()" (input)="changeInput()" [formControl]="searchField" [placeholder]="placeholder">
+    <div class="absolute z-10 right-[-8px] top-[8px] w-6 flex items-center">
+      <mat-icon *ngIf="!searchField.value" svgIcon="search" class="cursor-pointer"></mat-icon>
+      <mat-icon (click)="clearSearch()" *ngIf="searchField.value" svgIcon="close" class="cursor-pointer"></mat-icon>
+    </div>
+  </mat-form-field>

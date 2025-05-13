@@ -27,14 +27,27 @@
             <span class="text-blue-900 cursor-pointer">Clear</span>
         </div>
         <div class="w-full">
-            <app-expand-collapse *ngFor="let item of filterData" class="mb-2" className="border border-gray-400 rounded" headerClass="bg-grey2 rounded" iconOrder="2" [title]="item.name">
+            <mat-accordion class="accordian-block">
+                <mat-expansion-panel  *ngFor="let item of filterData" class="!shadow-none border border-gray-400 !mb-1 expand-block">
+                    <mat-expansion-panel-header>
+                    <mat-panel-title> {{item.name}} </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <section class="max-h-44 overflow-auto">
+                    <div class="px-2 py-1 cursor-pointer hover:bg-slate-200" *ngFor="let listItem of item.options
+                    ">
+                        <label>{{listItem.name}}</label>
+                    </div>
+                </section>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <!-- <app-expand-collapse *ngFor="let item of filterData" class="mb-2" className="border border-gray-400 rounded" headerClass="bg-grey2 rounded" iconOrder="2" [title]="item.name">
                 <section class="max-h-44 overflow-auto">
                     <div class="px-2 py-1 cursor-pointer hover:bg-slate-200" *ngFor="let listItem of item.options
                     ">
                         <label>{{listItem.name}}</label>
                     </div>
                 </section>
-            </app-expand-collapse>
+            </app-expand-collapse> -->
         </div>
     </div>
     <div class="md2:w-2/5 w-full">

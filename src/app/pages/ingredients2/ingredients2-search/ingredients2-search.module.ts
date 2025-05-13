@@ -18,7 +18,7 @@ import { AdvancedComponent } from './advanced/advanced.component';
 import { CardModule } from '@shared/modules/card/card.module';
 import { MatTreeSelectInputModule } from '@shared/modules/mat-tree-select-input/mat-tree-select-input.module';
 import { TreeSelectModule } from '@shared/modules/tree-select/tree-select.module';
-
+import {MatExpansionModule} from '@angular/material/expansion';
 
 
 @NgModule({
@@ -46,7 +46,8 @@ import { TreeSelectModule } from '@shared/modules/tree-select/tree-select.module
     MatTabsModule,
     CardModule,
     MatTreeSelectInputModule,
-    TreeSelectModule
+    TreeSelectModule,
+    MatExpansionModule
 ],
 exports: [
   StandardComponent,

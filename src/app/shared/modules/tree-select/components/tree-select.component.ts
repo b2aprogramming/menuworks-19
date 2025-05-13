@@ -2,7 +2,8 @@ import { Component, forwardRef, Input, OnInit } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { MatTreeFlatDataSource, MatTreeFlattener } from '@angular/material/tree';
-import { StandardFilterData, TreeSelectService } from '../services/tree-select.service';
+import { TreeSelectService } from '../services/tree-select.service';
+import { StandardFilterValuesData } from '@shared/models/ingredients.model';
 
 interface FlatTreeNode {
   expandable: boolean;
@@ -11,7 +12,7 @@ interface FlatTreeNode {
   id: number;
   checked: boolean;
   indeterminate: boolean;
-  data: StandardFilterData;
+  data: StandardFilterValuesData;
 }
 
 @Component({
@@ -28,15 +29,15 @@ interface FlatTreeNode {
   ]
 })
 export class TreeSelectComponent implements OnInit, ControlValueAccessor {
-  @Input() data: StandardFilterData[] = [];
+  @Input() data: StandardFilterValuesData[] = [];
   @Input() placeholder: string = 'Select items';
   @Input() multiple: boolean = false;
 
-  public treeData: StandardFilterData[] = [];
-  public selectedNodes: StandardFilterData[] = [];
+  public treeData: StandardFilterValuesData[] = [];
+  public selectedNodes: StandardFilterValuesData[] = [];
   public disabled: boolean = false;
 
-  private _transformer = (node: StandardFilterData, level: number) => {
+  private _transformer = (node: StandardFilterValuesData, level: number) => {
     return {
       expandable: !!node.children && node.children.length > 0,
       name: node.name,

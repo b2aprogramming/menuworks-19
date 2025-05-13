@@ -1,3 +1,28 @@
 .mat-mdc-tab-header {
     border-bottom: 1px solid #ccc;
 }
+.expand-block {
+    --mat-expansion-header-expanded-state-height: 36px;
+    --mat-expansion-header-collapsed-state-height: 36px;
+    mat-expansion-panel-header{
+        padding: 0 12px;
+        background: #f7f7f7 !important;
+        .mat-expansion-indicator {
+            display: flex;
+            position: absolute;
+            top: calc(50% - 6px);
+            right: 10px;
+            transition: all 0.2s ease-in-out;
+        }
+        &.mat-expanded {
+             .mat-expansion-indicator {
+                top: calc(50% - 3px);
+            }
+        }
+    }
+}
+.accordian-block {
+    .mat-expansion-panel-body {
+        padding: 0 0px 12px 8px;
+    }
+}

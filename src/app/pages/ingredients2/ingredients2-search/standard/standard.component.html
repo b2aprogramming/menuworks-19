@@ -1,7 +1,7 @@
 
 <div class="flex flex-col md:flex-row md2:flex-row gap-4">
     <div class="md2:w-2/5 w-full">
-        <form [formGroup]="treeForm">
+        <!-- <form [formGroup]="treeForm">
             <app-tree-select
               formControlName="singleSelect"
               [data]="sampleData"
@@ -13,7 +13,7 @@
               [multiple]="true"
               placeholder="Select multiple categories">
             </app-tree-select>
-          </form>
+          </form> -->
         <div class="w-full pt-3">
             <app-search-input></app-search-input>
         </div>
@@ -22,17 +22,34 @@
             <span class="text-blue-900 cursor-pointer">Clear</span>
         </div>
         <div class="w-full">
-            <div>
+            <!-- <div>
                 <app-mat-tree-select-input></app-mat-tree-select-input>
-            </div>
-            <app-expand-collapse *ngFor="let item of standardList" class="mb-2" className="border border-gray-400 rounded" headerClass="bg-grey2 rounded" iconOrder="2" [title]="item.name">
+            </div> -->
+            <mat-accordion class="accordian-block">
+                <mat-expansion-panel  *ngFor="let item of standardList" class="!shadow-none border border-gray-400 !mb-1 expand-block">
+                    <mat-expansion-panel-header>
+                    <mat-panel-title> {{item.name}} </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <section class="max-h-44 overflow-auto">
+                        <app-tree-select
+                        [(ngModel)]="item.selected"
+                        [data]="item?.values || []"
+                        [multiple]="true"
+                        placeholder="Select multiple categories">
+                        </app-tree-select>
+                    </section>
+                </mat-expansion-panel>
+            </mat-accordion>
+            <!-- <app-expand-collapse *ngFor="let item of standardList" class="mb-2" className="border border-gray-400 rounded" headerClass="bg-grey2 rounded" iconOrder="2" [title]="item.name">
                 <section class="max-h-44 overflow-auto">
-                    
-                    <div *ngFor="let listItem of item.values">
-                        <mat-checkbox class="example-margin" [(ngModel)]="listItem.selected">{{listItem.name}}</mat-checkbox>
-                    </div>
+                     <app-tree-select
+                    [(ngModel)]="item.selected"
+                    [data]="item?.values || []"
+                    [multiple]="true"
+                    placeholder="Select multiple categories">
+                    </app-tree-select>
                 </section>
-            </app-expand-collapse>
+            </app-expand-collapse> -->
         </div>
     </div>
     <div class="md2:w-3/5 w-full gap-2 pt-3">

@@ -1,12 +1,12 @@
-import { ChangeDetectorRef, Component, OnInit, ViewChild } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
-import { Observable } from 'rxjs';
+import { map, Observable } from 'rxjs';
 import { DATA } from '../constants';
 import { FormControl, FormGroup, FormBuilder} from '@angular/forms';
 import { HttpService } from '@core/http/http.service';
 import { API } from '@core/http/http-api.constants';
-import { StandardFilterData } from '@shared/modules/tree-select/services/tree-select.service';
+import { StandardFilterData, StandardFilterValuesData } from '@shared/models/ingredients.model';
 
 
 @Component({
@@ -14,13 +14,14 @@ import { StandardFilterData } from '@shared/modules/tree-select/services/tree-se
   templateUrl: './standard.component.html',
   styleUrls: ['./standard.component.scss'],
   standalone: false,
+  encapsulation: ViewEncapsulation.None
 })
 export class StandardComponent implements OnInit {
   @ViewChild(MatPaginator) public paginator!: MatPaginator;
   public dataSource!: MatTableDataSource<any>;
   public listData!: Observable<any>;
 
-  sampleData: StandardFilterData[] = [
+  sampleData: StandardFilterValuesData[] = [
     {
       id: 1,
       name: 'Category 1',
@@ -66,7 +67,7 @@ export class StandardComponent implements OnInit {
 
   public sortField = new FormControl('byRrelevance');
 
-  public standardList:any[] = [];
+  public standardList:StandardFilterData[] = [];
   public searchKeys = [
     {name: 'Keyword', id: 1, value: 'keyword'},
     {name: 'Match Phrase Only', id: 2, value: 'matchPhrase'},
@@ -98,14 +99,22 @@ export class StandardComponent implements OnInit {
   }
 
   public getStandardIngredient(){
-    this.httpService.get( API.INGRADIENTS.STANDARD_FILTER_DATA).subscribe((res) => {
+    this.httpService.get( API.INGRADIENTS.STANDARD_FILTER_DATA)
+    .pipe(
+      map((res) => {
+        return res.map(( ele: StandardFilterData) => {
+          return ele;
+        })
+      })
+    ).subscribe((res) => {
       this.standardList = res;
+       console.log('@@ DDD',res);
     })
   }
 
   public getGlobalResultData(){
     this.httpService.get(API.INGRADIENTS.GLOBAL_RESULT).subscribe((res) => {
-      console.log('@@ glT',res);
+     
       // this.standardList = res;
       this.dataSource =  new MatTableDataSource<any>(res);
       this.changeDetectorRef.detectChanges();

@@ -35,10 +35,18 @@ export interface FilterData {
     selectedFilters: FilterDataSelectedData[]
 }
 
+export interface StandardFilterValuesData{
+    id: number;
+    name: string;
+    selected?: boolean;
+    list?: number[];
+    children?: StandardFilterValuesData[]
+}
 
 export interface StandardFilterData {
     id: number;
     name: string;
     list?: number[];
-    children?: StandardFilterData[]
+    selected?: boolean;
+    values: StandardFilterValuesData[];
 }
